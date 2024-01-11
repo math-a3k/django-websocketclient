@@ -11,7 +11,7 @@ exclude = ["websocketclient/tests/**/*"]
 [tool.poetry.dependencies]
 python = "^3.8"
 websockets = "^10.3"
-Django = "^4.0.4"
+Django = ">=4.0.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
